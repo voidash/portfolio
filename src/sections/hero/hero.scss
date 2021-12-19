@@ -1,0 +1,70 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../../assets/visual\ grids.svg') no-repeat #F8EAFF;
+    background-repeat: no-repeat;
+    background-size: 190px;
+    min-height: 400px;
+    padding: 30px 10px;
+}
+.hero-container {
+
+    display:flex;
+    justify-content: start;
+    flex-wrap: wrap-reverse;
+    margin:0;
+    column-gap: 300px;
+}
+
+.hero-container__description {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    width: 400px;
+}
+
+.hero-container__profile {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+        height:40vh;
+        border-radius:30px;
+    }
+}
+
+
+
+.hero-container__description--name {
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 60px;
+line-height: 84px;
+color: #000000; 
+}
+
+.hero-container__description--brief {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+
+color: #D0ABAB;
+}
+
+.hero-container__description--button {
+ background: #7E36DA;
+ border-radius: 51px;
+ padding:10px 15px;
+ text-decoration: none;
+ color:white;
+
+}
+
+
